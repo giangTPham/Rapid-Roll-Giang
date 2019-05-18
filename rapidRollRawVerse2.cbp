@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="rapidRollRawVerse2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/rapidRollRawVerse2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/rapidRollRawVerse2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++14" />
+			<Add option="-fexceptions" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/SFML/SFML-2.5.1/include" />
+		</Compiler>
+		<Linker>
+			<Add library="sfml-system" />
+			<Add library="sfml-window" />
+			<Add library="sfml-network" />
+			<Add library="sfml-graphics" />
+			<Add library="sfml-audio" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/SFML/SFML-2.5.1/lib" />
+		</Linker>
+		<Unit filename="include/Background.h" />
+		<Unit filename="include/Ball.h" />
+		<Unit filename="include/BallTypes.h" />
+		<Unit filename="include/Barry.h" />
+		<Unit filename="include/ChooseDifficulty.h" />
+		<Unit filename="include/Common.h" />
+		<Unit filename="include/Crossbar.h" />
+		<Unit filename="include/Game.h" />
+		<Unit filename="include/Heart.h" />
+		<Unit filename="include/Instruction.h" />
+		<Unit filename="include/LifeAid.h" />
+		<Unit filename="include/LostScreen.h" />
+		<Unit filename="include/Menu.h" />
+		<Unit filename="include/Music.h" />
+		<Unit filename="include/Nails.h" />
+		<Unit filename="include/Poster.h" />
+		<Unit filename="include/Score.h" />
+		<Unit filename="include/Sound.h" />
+		<Unit filename="include/StartScreen.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Background.cpp" />
+		<Unit filename="src/Ball.cpp" />
+		<Unit filename="src/BallTypes.cpp" />
+		<Unit filename="src/Barry.cpp" />
+		<Unit filename="src/ChooseDifficulty.cpp" />
+		<Unit filename="src/Common.cpp" />
+		<Unit filename="src/Crossbar.cpp" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/Heart.cpp" />
+		<Unit filename="src/Instruction.cpp" />
+		<Unit filename="src/LifeAid.cpp" />
+		<Unit filename="src/LostScreen.cpp" />
+		<Unit filename="src/Menu.cpp" />
+		<Unit filename="src/Music.cpp" />
+		<Unit filename="src/Nails.cpp" />
+		<Unit filename="src/Poster.cpp" />
+		<Unit filename="src/Score.cpp" />
+		<Unit filename="src/Sound.cpp" />
+		<Unit filename="src/StartScreen.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
