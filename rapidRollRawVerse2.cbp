@@ -34,7 +34,7 @@
 			<Add option="-Wall" />
 			<Add option="-std=c++14" />
 			<Add option="-fexceptions" />
-			<Add directory="C:/Program Files (x86)/CodeBlocks/SFML/SFML-2.5.1/include" />
+			<Add directory="SFML/SFML-2.5.1/include" />
 		</Compiler>
 		<Linker>
 			<Add library="sfml-system" />
@@ -42,7 +42,7 @@
 			<Add library="sfml-network" />
 			<Add library="sfml-graphics" />
 			<Add library="sfml-audio" />
-			<Add directory="C:/Program Files (x86)/CodeBlocks/SFML/SFML-2.5.1/lib" />
+			<Add directory="SFML/SFML-2.5.1/lib" />
 		</Linker>
 		<Unit filename="include/Background.h" />
 		<Unit filename="include/Ball.h" />
